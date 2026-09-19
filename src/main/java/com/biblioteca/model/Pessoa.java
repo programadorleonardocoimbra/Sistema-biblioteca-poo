@@ -1,6 +1,6 @@
 package com.biblioteca.model;
 
-public class Pessoa {
+public abstract class Pessoa {
 
     private long id;
     private String nome;
