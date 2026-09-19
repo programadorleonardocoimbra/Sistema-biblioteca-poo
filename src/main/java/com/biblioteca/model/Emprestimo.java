@@ -51,10 +51,10 @@ public class Emprestimo {
     public void exibirInformacoes() {
 
         System.out.println("--------------------");
-        System.out.println("Emprestimo: " + id);
+        System.out.println("Empréstimo: " + id);
         System.out.println("Livro: " + livro.getTitulo());
-        System.out.println("Usuario: " + usuario.getNome());
-        System.out.println("Data de Emprestimo: " + dataEmprestimo);
+        System.out.println("Usuário: " + usuario.getNome());
+        System.out.println("Data de Empréstimo: " + dataEmprestimo);
 
         if (dataDevolucao == null) {
             System.out.println("Situação ATIVO");
