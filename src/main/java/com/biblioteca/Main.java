@@ -16,7 +16,6 @@ public class Main {
 
         BibliotecaService biblioteca = new BibliotecaService();
 
-        // Dados iniciais
 
         Livro livro1 = new Livro(
                 1L,
@@ -35,8 +34,8 @@ public class Main {
         Usuario usuario1 = new Usuario(
                 1L,
                 "Leonardo Coimbra",
-                "leonardo@email.com",
-                "(21) 99999-9999"
+                "leonardo@email.com.br",
+                "(21)99999-9999"
         );
 
         biblioteca.cadastrarLivro(livro1);
@@ -85,7 +84,7 @@ public class Main {
                     } catch (LivroIndisponivelException e) {
 
                         System.out.println(
-                                "Erro: " + e.getMessage()
+                                "Atenção: " + e.getMessage()
                         );
                     }
                 }
@@ -97,7 +96,7 @@ public class Main {
                     if (biblioteca.getEmprestimos().isEmpty()) {
 
                         System.out.println(
-                                "Nenhum empréstimo encontrado."
+                                "NENHUM empréstimo encontrado."
                         );
 
                     } else {
