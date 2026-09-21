@@ -33,3 +33,6 @@ os principais conceitos de Programação Orientada a Objetos.
 - Devolução de livros
 - Controle de disponibilidade
 - Histórico de empréstimos
+
+## Criado por:
+#### Leonardo Coimbra
